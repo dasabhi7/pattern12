@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int k=1;
+    while(k<=n){
+     char ch='a';
+     int a=1;
+     while(a<=k){
+         printf("%c",ch);
+         ch++;
+         a++;
+     }
+     printf("\n");
+     k++;
+    }
+}
